@@ -1,0 +1,12 @@
+/* Global CSS */
+.card { padding: 10px; }
+#user-profile .card { padding: 20px; }
+
+/* Component CSS */
+.user-card {
+  padding: 15px !important;
+}
+
+
+/* handle the issue in the global card styling to prevent using "!important" in inididual components */
+/* I can not debug further until have a visual implemetation of the problem */

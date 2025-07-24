@@ -1,0 +1,24 @@
+Discuss your implementation choices regarding:
+•	State management approach
+•	Performance optimizations
+•	Accessibility considerations
+•	Testing strategy
+•	Trade-offs you made
+
+State management: For state management, depending on the app structure or how robust the application is, I will go for Zustand or Rudux to handle Global state of the application and for local state I will lean more towards React Context for a react application
+
+Performance optimization: Firstly debug what is causing a drag in perfomation of the application, if it's the frontend structure or fetching data from the backend. 
+  *create reusable components that will help with debugging easier
+  *remove any un-used packages that might slow down the frontend or go for a better use case if need be
+  *test the end to end data fetching from the backend and work on improvement if need be
+  *run Unit testing or integral testing for a more streamlined approach - to test functions of inividual components and how they function and integral testing to fest how the components work together and also how they render and send data
+
+
+Accessibility considerations: 
+
+Testing strategy: I personally go for unit and interal testing. I use Jest, react test library, cypress for end to end testing. I also use Storybook to test how the application function on multiple browsers.
+
+Trade-offs you made: 
+  *I personally stopped using SASS and styled component when working on web application to using tailwind, though i still use styled components for mobile applications.
+  * I switched from React Context to Zustand, cause it's a light weight package that i use to both handle state management, locally and globally
+  

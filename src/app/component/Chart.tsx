@@ -39,7 +39,7 @@ const chartConfig = {
 
 export function ChartData() {
   return (
-    <Card>
+    <Card className="w-full">
       <CardHeader>
         <CardTitle>Area Chart - Step</CardTitle>
         <CardDescription>
